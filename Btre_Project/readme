@@ -1,0 +1,9 @@
+# install virtual environment on linux
+sudo apt install python3-venv
+python3 -m venv ./venv
+source ./venv/bin/activate
+# install Djangi in Venv
+sudo pip install django
+# startproject
+django-admin startproject btre .
+
