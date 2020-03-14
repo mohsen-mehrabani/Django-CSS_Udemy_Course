@@ -8,8 +8,11 @@ venv\Scripts\deactivate.bat
 
 # install django in Venv
 sudo pip install django
+
+python manage.py runserver
+
 # startproject
 django-admin startproject btre .
 
-python manage.py runserver
+
 
