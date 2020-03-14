@@ -6,8 +6,10 @@ source ./venv/bin/activate
 venv\Scripts\activate.bat
 venv\Scripts\deactivate.bat
 
-# install Djangi in Venv
+# install django in Venv
 sudo pip install django
 # startproject
 django-admin startproject btre .
+
+python manage.py runserver
 
