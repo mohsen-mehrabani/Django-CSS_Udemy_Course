@@ -1,0 +1,24 @@
+html{
+    background-color: #4f4f4f;
+}
+
+h1{
+    color: #0a3d2e;
+    font-size: 165%;
+}
+h2{
+    font-size: 130%;
+    color: #3a77d7;
+}
+.highlight {
+    color: #4dff0b;
+}
+.box-a {
+    padding: 60px 80px;
+    align-content: center;
+    background-color: #3a77d7;
+    margin: 30px 30px 100px 50px;
+    width: fit-content;
+    box-sizing: border-box;
+    border: 3px solid #0f4032;
+}
