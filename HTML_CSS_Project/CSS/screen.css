@@ -89,6 +89,25 @@ table td {
 }
 /*End table*/
 /*----------------------------------------------------------------------*/
+/*Form Styles*/
+form {
+    width: 50%;
+    background-color: #e6eae4;
+    padding: 30px 40px;
+}
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="text"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+}
+/*End Form Styles*/
+/*----------------------------------------------------------------------*/
 /*Site navigation*/
 .site-nav {
     margin-top: 20px;
