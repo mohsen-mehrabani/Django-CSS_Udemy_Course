@@ -1,9 +1,38 @@
 html{
-    background-color: #d1ffcf;
+    background-color: #f2fff0;
+    line-height: 1.2;
+}
+body {
+    /*font-family: Helvetica, Arial, sans-serif ;*/
+    font-family: 'PTSans', Arial, sans-serif;
+	font-size: 15px;
+}
+a {
+    text-decoration: none;
 }
 img {
     max-width: 35%;
     height: auto;
+}
+/*Main Column Typography*/
+.main-area h2 {
+    font-size: 200%;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    /*text-shadow: 2px 2px 2px #999999;*/
+    text-shadow: 2px 2px 2px rgba(200, 50, 10, .25);
+    /*text-transform: uppercase;*/
+    /*text-decoration: underline;*/
+
+}
+.main-area p {
+    font-size: 108%;
+    text-align: justify;
+    text-indent: 10px;
+    /*line-height: 1.1; for better result I'l put in in the html body*/
+
 }
 .image-banner {
     position: relative;
@@ -102,7 +131,7 @@ select {
 }
 input,
 select {
-    font-family: Tahama, sans-serif;
+    font-family: Tahoma, sans-serif;
     font-size: 100%;
 }
 input[type="email"],
@@ -187,3 +216,34 @@ input[type="submit"]:hover {
 
 /*End site navigation*/
 /*----------------------------------------------------------------------*/
+
+.main-area {
+	width: 60%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+footer {
+	text-align: center;
+	font-size: 80%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
