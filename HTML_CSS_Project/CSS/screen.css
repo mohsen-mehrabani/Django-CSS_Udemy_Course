@@ -58,6 +58,7 @@ img {
     max-width: 35%;
     height: auto;
 }
+
 /*Main Column Typography*/
 .main-area h2 {
     font-size: 200%;
@@ -93,6 +94,7 @@ img {
     background-color: rgba(50, 0, 0, .45);
     padding: 10px 10px;
 }
+
 h1{
     color: #0f4032;
     font-size: 165%;
