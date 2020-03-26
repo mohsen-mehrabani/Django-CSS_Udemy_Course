@@ -21,3 +21,6 @@ box-sizing: border-box;
 ----------------------------------------
 https://linuxhint.com/install_fonts_ubuntu/
 ----------------------------------------
+bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+kite installing linux
+----------------------------------------
