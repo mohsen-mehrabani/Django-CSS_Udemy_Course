@@ -126,9 +126,8 @@ img {
     width: 940px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffffff;
-    background-image: url("../Images/color-tile.png");
-    background-repeat: repeat-x;
+    background: url("../Images/color-tile.png") left bottom repeat-x,
+    #ffffff url("../Images/color-tile.png") left top repeat-x;
     padding-top: 15px;
     box-sizing: border-box;
 }
