@@ -1,6 +1,21 @@
 html{
-    background-color: #f2fff0;
+    background-color: #c5f9e3;
     line-height: 1.2;
+}
+header {
+    width: 940px;
+    padding-top: 20px;
+    padding-left: 0;
+    color: #617140;
+    /*background-color: #798A56;*/
+    background-image: url("../Images/flower.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #869960;
+}
+.sit_header {
+    padding-left: 40px;
 }
 body {
     /*font-family: Helvetica, Arial, sans-serif ;*/
@@ -66,6 +81,8 @@ img {
     font-style: italic;
     letter-spacing: 3px;
     word-spacing: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
     /*text-shadow: 2px 2px 2px #999999;*/
     text-shadow: 2px 2px 2px rgba(200, 50, 10, .25);
     /*text-transform: uppercase;*/
@@ -74,10 +91,20 @@ img {
 }
 .main-area p {
     font-size: 108%;
+    float: right;
     text-align: justify;
     text-indent: 10px;
+    padding-left: 40px;
     /*line-height: 1.1; for better result I'l put in in the html body*/
 
+}
+.sidebar {
+    width: 34%;
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    background-color: #869960;
 }
 .image-banner {
     position: relative;
@@ -94,7 +121,16 @@ img {
     background-color: rgba(50, 0, 0, .45);
     padding: 10px 10px;
 }
-
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    background-image: url("../Images/color-tile.png");
+    background-repeat: repeat-x;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
 h1{
     color: #0f4032;
     font-size: 165%;
@@ -236,24 +272,23 @@ input[type="submit"]:hover {
 /*----------------------------------------------------------------------*/
 /*Site navigation*/
 .site-nav {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .site-nav ul {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 11px;
     margin: 0;
 }
 .site-nav li {
     list-style: none;
     float: left;
     margin-right: 3px;
-
 }
 .site-nav a {
     text-decoration: none;
     color: #3a77d7;
     padding: 10px 15px;
-    border: 1px solid #0e3433;
+    border: 2px solid #869960;
 
 }
 .site-nav a:hover {
@@ -264,7 +299,7 @@ input[type="submit"]:hover {
 /*----------------------------------------------------------------------*/
 
 .main-area {
-	width: 60%;
+	width: 55%;
 	float: left;
 	padding-right: 40px;
 	box-sizing: border-box;
@@ -275,21 +310,4 @@ footer {
 	color: #999;
 	padding-bottom: 20px;
 	padding-top: 20px;
-}
-.fix {
-	clear: both;
-}
-
-.group:before,
-.group:after {
-	content: "";
-	display: table;
-}
-
-.group:after {
-	clear: both;
-}
-
-.group {
-	zoom: 1;
 }
