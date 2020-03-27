@@ -14,7 +14,7 @@ header {
     background-repeat: no-repeat;
     border-bottom: 2px solid #869960;
 }
-.sit_header {
+.site_header {
     padding-left: 40px;
 }
 body {
@@ -103,6 +103,7 @@ img {
     float: right;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 40px;
     text-align: justify;
     background-color: #869960;
 }
@@ -151,22 +152,27 @@ h2{
     box-sizing: border-box;
     border: 3px solid #0f4032;
 }
-/*----------------------------------------------------------------------*/
-/*Group*/
-.group:before,
-.group:after {
-	content: "";
-	display: table;
+/* Birds Background Demo */
+.birds {
+	background: #ffffff url(../Images/bird.jpg) center center no-repeat;
+    background-size: cover;
+	text-align: center;
+	padding: 100px 0;
 }
 
-.group:after {
-	clear: both;
+.birds p {
+	margin: 0;
+    position: relative;
+    left: -100px;
+    bottom: -100px;
+	background-color: rgba(0, 0, 0, .50);
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+	display: inline-block;
+	padding: 10px;
 }
 
-.group {
-    zoom: 1;
-}
-/*End of group*/
+/* End Birds Demo */
 /*----------------------------------------------------------------------*/
 /*Table*/
 table {
@@ -266,7 +272,7 @@ input[type="submit"]:hover {
     height: 0;
     width: 0;
     overflow: hidden;
-    visibility: hidden;
+    visibibirdslity: hidden;
 }
 /*End Form Styles*/
 /*----------------------------------------------------------------------*/
@@ -297,7 +303,9 @@ input[type="submit"]:hover {
 
 /*End site navigation*/
 /*----------------------------------------------------------------------*/
-
+.content-area {
+	border-bottom: 3px solid #869960;
+}
 .main-area {
 	width: 55%;
 	float: left;
@@ -311,3 +319,22 @@ footer {
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+.fix {
+	clear: both;
+}
+/*Group*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+/*End of group*/
+/*----------------------------------------------------------------------*/
