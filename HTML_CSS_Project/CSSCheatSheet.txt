@@ -24,3 +24,10 @@ https://linuxhint.com/install_fonts_ubuntu/
 bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
 kite installing linux
 ----------------------------------------
+background-image: -webkit-gradient(linear, left top, left bottom, from(#869960), to(#869960));
+background-image: -webkit-linear-gradient(top, #869960, #ffffff);
+background-image: -moz-linear-gradient(top, #869960,#ffffff);
+background-image: -ms-linear-gradient(top, #869960, #ffffff);
+background-image: -o-linear-gradient(top, #869960, #ffffff);
+background-image: linear-gradient(to bottom, #869960, #ffffff);
+----------------------------------------
