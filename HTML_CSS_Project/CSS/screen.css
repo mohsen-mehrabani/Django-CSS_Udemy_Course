@@ -91,7 +91,7 @@ img {
 }
 .main-area p {
     font-size: 108%;
-    float: right;
+    /*float: right;*/
     text-align: justify;
     text-indent: 10px;
     padding-left: 40px;
@@ -162,7 +162,7 @@ h2{
 .birds p {
 	margin: 0;
     position: relative;
-    left: -100px;
+    left: -170px;
     bottom: -100px;
 	background-color: rgba(0, 0, 0, .50);
 	color: #FFF;
