@@ -1,14 +1,11 @@
 html{
     background-color: #869960;
-    line-height: 1.2;
 }
 header {
     color: white;
     background-color: #0f4032;
     border-bottom: 2px solid #0f4032;
-    margin: 0;
-    padding: 0;
-
+    padding-top: 20px;
 }
 header h1{
     color: white;
@@ -22,6 +19,8 @@ body {
     /*font-family: Helvetica, Arial, sans-serif ;*/
     font-family: 'PTSans', Arial, sans-serif;
 	font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 /*----------------------------------------------------------------------*/
 /*Custom Fonts*/
