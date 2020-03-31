@@ -1,21 +1,22 @@
 html{
-    background-color: #c5f9e3;
+    background-color: #869960;
     line-height: 1.2;
 }
 header {
-    width: 940px;
-    padding-top: 20px;
-    padding-left: 0;
-    color: #617140;
-    /*background-color: #798A56;*/
-    background-image: url("../Images/flower.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-bottom: 2px solid #869960;
+    color: white;
+    background-color: #0f4032;
+    border-bottom: 2px solid #0f4032;
+    margin: 0;
+    padding: 0;
+
 }
-.site_header {
-    padding-left: 40px;
+header h1{
+    color: white;
+    font-size: 165%;
+}
+header h2{
+    font-size: 130%;
+    color: white;
 }
 body {
     /*font-family: Helvetica, Arial, sans-serif ;*/
@@ -137,14 +138,7 @@ img {
     padding-top: 15px;
     box-sizing: border-box;
 }
-h1{
-    color: #0f4032;
-    font-size: 165%;
-}
-h2{
-    font-size: 130%;
-    color: #1c3401;
-}
+
 .highlight {
     color: #4dff0b;
 }
@@ -277,7 +271,7 @@ input[type="submit"]:hover {
     height: 0;
     width: 0;
     overflow: hidden;
-    visibibirdslity: hidden;
+    visibility: hidden;
 }
 /*End Form Styles*/
 /*----------------------------------------------------------------------*/
@@ -297,9 +291,9 @@ input[type="submit"]:hover {
 }
 .site-nav a {
     text-decoration: none;
-    color: #3a77d7;
+    color: white;
     padding: 10px 15px;
-    border: 2px solid #869960;
+    border: 2px solid #fff;
 
 }
 .site-nav a:hover {
@@ -310,6 +304,8 @@ input[type="submit"]:hover {
 /*----------------------------------------------------------------------*/
 .content-area {
 	border-bottom: 3px solid #869960;
+    background-color: white;
+
 }
 .main-area {
 	width: 55%;
