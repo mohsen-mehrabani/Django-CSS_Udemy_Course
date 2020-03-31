@@ -129,13 +129,10 @@ img {
     padding: 10px 10px;
 }
 .container {
-    width: 940px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url("../Images/color-tile.png") left bottom repeat-x,
-    #ffffff url("../Images/color-tile.png") left top repeat-x;
-    padding-top: 15px;
-    box-sizing: border-box;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .highlight {
