@@ -24,14 +24,27 @@ body {
 }
 /*Main Column Typography*/
 .content-area {
-	border-top: 3px solid #e5e9dc;
-	border-bottom: 3px solid #e5e9dc;
+	background-color: lightgreen;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
+
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding-right: 40px;
     padding-left: 40px;
+}
+@media screen and (min-width: 1300px){
+    .container {
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 480Px){
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 .main-area {
     width: 66%;
@@ -305,7 +318,32 @@ input[type="submit"]:hover {
 .site-nav a:hover {
     background-color: #0f4032;
 }
+@media screen and (max-width: 480px){
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+}
 
+@media screen and (max-width: 700px){
+    .site-nav li {
+        width: 33.332%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 15px 0;
+        margin-right: 5px;
+        margin-bottom:5px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+}
 /*End site navigation*/
 /*----------------------------------------------------------------------*/
 /*UI Menu*/
@@ -340,6 +378,11 @@ input[type="submit"]:hover {
     margin-bottom: 1em;
     margin-top: 2em;
 }
+@media screen and (max-width: 480px){
+    .hide-small {
+        display: none;
+    }
+}
 footer {
 	text-align: center;
 	font-size: 80%;
@@ -360,7 +403,6 @@ footer {
 .group:after {
 	clear: both;
 }
-
 .group {
     zoom: 1;
 }
