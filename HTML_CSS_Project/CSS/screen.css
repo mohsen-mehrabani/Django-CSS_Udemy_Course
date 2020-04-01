@@ -94,7 +94,7 @@ img {
     /*float: right;*/
     text-align: justify;
     text-indent: 10px;
-    padding-left: 40px;
+    padding-left: 10px;
     /*line-height: 1.1; for better result I'l put in in the html body*/
 
 }
@@ -306,7 +306,7 @@ input[type="submit"]:hover {
 .main-area {
 	width: 55%;
 	float: left;
-	padding-right: 40px;
+	padding-right: 30px;
 	box-sizing: border-box;
 }
 /*UI Menu*/
@@ -333,10 +333,18 @@ input[type="submit"]:hover {
 .ui-settings a {background-position: 0 -100px}
 .ui-settings a:hover {background-position: -50px -100px}
 /*End UI Menu*/
+.info-box {
+    background-color: #efeedb;
+    border: 3px solid #e6e5c2;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
 footer {
 	text-align: center;
 	font-size: 80%;
-	color: #999;
+	color: lightgreen;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
