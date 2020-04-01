@@ -22,6 +22,58 @@ body {
     margin: 0;
     padding: 0;
 }
+/*Main Column Typography*/
+.content-area {
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.main-area {
+    width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+
+}
+.main-area h2 {
+    font-size: 200%;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*text-shadow: 2px 2px 2px #999999;*/
+    text-shadow: 2px 2px 2px rgba(200, 50, 10, .25);
+    /*text-transform: uppercase;*/
+    /*text-decoration: underline;*/
+}
+
+.sidebar {
+	width: 34%;
+	float: left;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 85%;
+}
+
+@media screen and (max-width: 700px) {
+
+    .main-area,
+    .sidebar {
+        width: auto;
+        float: none;
+    }
+    .main-area {
+		padding-right: 0;
+	}
+}
 /*----------------------------------------------------------------------*/
 /*Custom Fonts*/
 @font-face {
@@ -74,45 +126,8 @@ img {
     height: auto;
 }
 
-/*Main Column Typography*/
-.main-area h2 {
-    font-size: 200%;
-    font-weight: normal;
-    font-style: italic;
-    letter-spacing: 3px;
-    word-spacing: 8px;
-    padding-left: 40px;
-    padding-right: 40px;
-    /*text-shadow: 2px 2px 2px #999999;*/
-    text-shadow: 2px 2px 2px rgba(200, 50, 10, .25);
-    /*text-transform: uppercase;*/
-    /*text-decoration: underline;*/
 
-}
-.main-area p {
-    font-size: 108%;
-    /*float: right;*/
-    text-align: justify;
-    text-indent: 10px;
-    padding-left: 10px;
-    /*line-height: 1.1; for better result I'l put in in the html body*/
 
-}
-.sidebar {
-    width: 34%;
-    float: right;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    text-align: justify;
-    background-color: #869960;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#869960), to(#869960));
-    background-image: -webkit-linear-gradient(top, #869960, #ffffff);
-    background-image: -moz-linear-gradient(top, #869960,#ffffff);
-    background-image: -ms-linear-gradient(top, #869960, #ffffff);
-    background-image: -o-linear-gradient(top, #869960, #ff);
-    background-image: linear-gradient(to bottom, #869960, #ffffff);
-}
 .image-banner {
     position: relative;
     z-index: auto;
@@ -128,12 +143,7 @@ img {
     background-color: rgba(50, 0, 0, .45);
     padding: 10px 10px;
 }
-.container {
-    max-width: 940px;
-    margin: 0 auto;
-    padding-right: 40px;
-    padding-left: 40px;
-}
+
 
 .highlight {
     color: #4dff0b;
@@ -298,17 +308,6 @@ input[type="submit"]:hover {
 
 /*End site navigation*/
 /*----------------------------------------------------------------------*/
-.content-area {
-	border-bottom: 3px solid #869960;
-    background-color: white;
-
-}
-.main-area {
-	width: 55%;
-	float: left;
-	padding-right: 30px;
-	box-sizing: border-box;
-}
 /*UI Menu*/
 .ui-menu ul {
     margin: 0;
