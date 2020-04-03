@@ -186,7 +186,24 @@ img {
     /*border-radius: 50%;*/
     border-radius: 175px/100px;
 }
+.example-a {
+    width: 50%;
+    background-color: white;
+    margin: 100px 20px;
+    padding: 50px;
+    transform: scale(1.2) rotate(5deg) skewX(2deg) skewY(-5deg);
+    transform-origin: 0 10px;
+    /*transform-origin(0 0 ) represent the left top corner the  origin position*/
+}
+.example-b {
+    width: 50%;
+    background-color: white;
+    margin: 100px 20px;
+    padding: 50px;
+    transform:translateX(10px) translateY(10px);
 
+
+}
 /* Birds Background Demo */
 .birds {
 	background: #ffffff url(../Images/bird.jpg) center center no-repeat;
