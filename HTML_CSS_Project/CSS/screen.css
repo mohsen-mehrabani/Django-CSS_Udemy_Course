@@ -135,7 +135,7 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 35%;
+    width:100%;
     height: auto;
 }
 
@@ -175,15 +175,15 @@ img {
 	background: #ffffff url(../Images/bird.jpg) center center no-repeat;
     background-size: cover;
 	text-align: center;
-	padding: 100px 0;
+	padding: 100px 100px;
+
 }
 
 .birds p {
-	margin: 0;
-    position: relative;
-    left: -170px;
-    bottom: -100px;
-	background-color: rgba(0, 0, 0, .50);
+    position: absolute;
+    bottom: auto;
+    left: 40px;
+    background-color: rgba(0, 0, 0, .50);
 	color: #FFF;
 	text-shadow: 1px 1px 0 #000;
 	display: inline-block;
