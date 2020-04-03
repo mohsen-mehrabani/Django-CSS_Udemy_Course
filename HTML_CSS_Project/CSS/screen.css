@@ -139,8 +139,6 @@ img {
     height: auto;
 }
 
-
-
 .image-banner {
     position: relative;
     z-index: auto;
@@ -162,10 +160,31 @@ img {
     color: #4dff0b;
 }
 .box-a {
-   	background-color: #e7eff5;
+   	background-color: #ececf6;
 	padding: 20px 20px 0 20px;
 	border: 2px solid #d3dee7;
 	margin-bottom: 30px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.25);
+    border-radius: 10px;
+}
+.box-b {
+    background-color: #cccccc;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+}
+.box-c {
+    background-color: #828282;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    line-height: 200px;
+    margin-bottom: 40px;
+    /*border-radius: 50%;*/
+    border-radius: 175px/100px;
 }
 
 /* Birds Background Demo */
