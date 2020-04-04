@@ -4,7 +4,7 @@ html{
 header {
     color: white;
     background-color: #0f4032;
-    border-bottom: 2px solid #0f4032;
+    /*border-bottom: 2px solid #0f4032;*/
     padding-top: 20px;
 }
 header h1{
@@ -24,9 +24,14 @@ body {
 }
 /*Main Column Typography*/
 .content-area {
-	background-color: lightgreen;
+	background-color: #eaffee;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.section {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .container {
@@ -34,6 +39,7 @@ body {
     margin: 0 auto;
     padding-right: 40px;
     padding-left: 40px;
+    overflow: hidden;
 }
 @media screen and (min-width: 1300px){
     .container {
@@ -333,8 +339,7 @@ input[type="submit"]:hover {
     margin-top: 10px;
 }
 .site-nav ul {
-    padding-top: 10px;
-    padding-bottom: 0;
+    padding: 0;
     margin: 0;
 }
 .site-nav li {
@@ -344,13 +349,17 @@ input[type="submit"]:hover {
 }
 .site-nav a {
     display: block;
-	color: #FFF;
+	color: white;
 	padding: 10px 20px;
-	background-color: #365267;
+	background-color: teal;
 
 }
 .site-nav a:hover {
-    background-color: #0f4032;
+    background-color: #eaffee;
+    color: blue;
+    /*transition-property: color, background-color;*/
+    transition-property: color;
+    transition-duration: 2s;
 }
 @media screen and (max-width: 700px){
     .site-nav li {
