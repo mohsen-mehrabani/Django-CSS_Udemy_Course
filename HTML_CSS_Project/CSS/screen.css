@@ -147,13 +147,14 @@ a {
     text-decoration: none;
 }
 img {
-    width:120%;
+    width:100%;
     height: auto;
 }
 
 .image-banner {
     position: relative;
     z-index: auto;
+    overflow: hidden;
 }
 .image-banner img {
     display: block;
@@ -163,8 +164,17 @@ img {
     bottom: 0;
     left: 0;
     color: white;
-    background-color: rgba(50, 0, 0, .45);
-    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, .45);
+    padding: 20px 20px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transform:translateY(100%);
+
+}
+.image-banner:hover .banner-description {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
