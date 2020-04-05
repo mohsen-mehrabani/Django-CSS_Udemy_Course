@@ -45,6 +45,12 @@ body {
     .container {
         max-width: 1200px;
     }
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 860px;
+    }
+}
+
 }
 @media screen and (max-width: 480Px){
     .container {
@@ -141,7 +147,7 @@ a {
     text-decoration: none;
 }
 img {
-    width:100%;
+    width:120%;
     height: auto;
 }
 
