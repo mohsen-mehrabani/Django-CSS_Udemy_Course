@@ -203,6 +203,12 @@ img {
     line-height: 200px;
     margin-bottom: 40px;
     border-radius: 100%;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+.box-b:hover {
+    transform: rotate(360deg);
 }
 .box-c {
     background-color: #828282;
