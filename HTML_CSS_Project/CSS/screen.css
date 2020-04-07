@@ -452,6 +452,17 @@ input[type="submit"]:hover {
         display: none;
     }
 }
+@media screen and (max-width: 1023px) {
+	.push-down-sm {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.push-down-sm {
+		margin-bottom: 15px;
+	}
+}
 footer {
 	text-align: center;
 	font-size: 80%;
