@@ -1,0 +1,1 @@
+052-reveal-hide-content-on-click-tap
