@@ -5,9 +5,10 @@
     <title>Home page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/screen.css">
+    <link rel="stylesheet" href="CSS/lightbox.css">
     <script type="text/javascript" src="./js/jquery.js "></script>
-    <script type="text/javascript" src="./js/cycle2.js"></script>
-    <script type="text/javascript" src="./js/declarativeToggle.js"></script>
+    <script type="text/javascript" src="./js/lightbox.min.js"></script>
+
 </head>
 	<body>
 
@@ -42,73 +43,21 @@
                 				<!-- row -->
 				<div class="row">
 
-                    <div class="col col-md-8 main-area push-down-sm">
+                    <div class="col col-md-8 push-down-sm">
+                        <h2>Welcome to the page!</h2>
+                            <!-- Thumbnails-->
+                            <div class="thumbnails group">
 
-                        <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-puse-on-hover="true">
-
-                            <span class="cycle-prev">&laquo;</span>
-                            <span class="cycle-next">&raquo;</span>
-
-                            <span class="cycle-pager"></span>
-
-                            <div class="slide">
-
-                                <img src="./Images/bee.jpg" alt="Bee">
-
-                                    <div class="slide-text">
-
-                                        <h3>Bee Title Here!</h3>
-                                        <p>this is the caption or descriptive text for the bee slide. <a
-                                            href="#" class="btn-a">Call to action!</a> </p>
-
-                                    </div>
-                            </div>
-
-                            <div class="slide">
-
-                                <img src="./Images/squirrel.jpg" alt="Squirrel">
-
-                                    <div class="slide-text">
-
-                                        <h3>Squirrel Title Here!</h3>
-                                        <p>this is the caption or descriptive text for the squirrel slide.<a
-                                            href="#" class="btn-a">Call to action!</a> </p>
-
-                                    </div>
-                            </div>
-
-                            <div class="slide">
-
-                                <img src="./Images/duck.jpg" alt="Duck">
-                                    <div class="slide-text">
-
-                                        <h3>Duck Title Here!</h3>
-                                        <p>this is the caption or descriptive text for the duck slide. <a
-                                            href="#" class="btn-a">Call to action!</a> </p>
-
-                                    </div>
+                                <a href="./Images/strawberry.jpg" data-lightbox="gallery" data-title="This is a strawberry "><img src="./Images/strawberry-thumb.jpg" alt="Strawberry"></a>
+                                <a href="./Images/dock.jpg" data-lightbox="gallery"><img src="./Images/dock-thumb.jpg" alt="Dock"></a>
+                                <a href="./Images/bee.jpg" data-lightbox="gallery"><img src="./Images/bee-thumb.jpg" alt="Bee"></a>
+                                <a href="./Images/bear.jpg" data-lightbox="gallery"><img src="./Images/bear-thumb.jpg" alt="Bear"></a>
+                                <a href="./Images/squirrel.jpg" data-lightbox="gallery"><img src="./Images/squirrel-thumb.jpg" alt="Squirrel"></a>
+                                <a href="./Images/trees.jpg" data-lightbox="gallery"><img src="./Images/trees-thumb.jpg" alt="Tree"></a>
+                                <a href="./Images/water.jpg" data-lightbox="gallery"><img src="./Images/water-thumb.jpg" alt="Water"></a>
+                                <a href="./Images/duck.jpg" data-lightbox="gallery"><img src="./Images/duck-thumb.jpg" alt="Duck"></a>
 
                             </div>
-                        </div>
-
-                            <h2>Important Text</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-                            , sunt in culpa qui officia deserunt mollit anim id est laborum. <span data-toggle-target=".full-text" data-toggle-text="Hide the full text..."
-                                                                                                   class="toggle-btn read-more">Read the full text...</span> </p>
-                        
-                            <div class="full-text">
-                                   <h2>Full Text</h2>
-
-							        <p><strong>This is the full text</strong>, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-                                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-                            </div>
-
                     </div>
 
 					    <div class="col col-md-4 sidebar">

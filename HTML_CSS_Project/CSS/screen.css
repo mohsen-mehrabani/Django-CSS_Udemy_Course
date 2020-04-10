@@ -173,7 +173,7 @@ a {
     text-decoration: none;
 }
 img {
-    width:100%;
+   width:100%;
     height: auto;
 }
 /*Star Animation*/
@@ -669,6 +669,30 @@ footer {
 }
 .fix {
 	clear: both;
+}
+/*Thumbnails Styles*/
+.thumbnails {
+    margin: -15px;
+}
+.thumbnails a {
+    float: left;
+    width: 25%;
+    padding-right: 15px ;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+ }
+.thumbnails img {
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.thumbnails:hover img {
+    transform: scale(0.8);
+    opacity: 0.6;
+}
+.thumbnails img:hover {
+    opacity: 1;
+    transform:scale(1.1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0,0,0,.7);
 }
 /*Grid System*/
 .row {
